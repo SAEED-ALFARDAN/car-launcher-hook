@@ -1,0 +1,18 @@
+.idea/
+*.iml
+*.ipr
+*.iws
+/build
+/*/build
+/app/release/
+*.apk
+*.aar
+local.properties
+.gradle/
+/captures
+.DS_Store
+Thumbs.db
+.externalNativeBuild
+.cxx/
+# Log files
+*.log
