@@ -19,10 +19,10 @@ This LSPosed module hooks into a closed-source Android car launcher (`com.spd.ho
 
 | Nebula wave pattern | Fiber Optic wave pattern |
 |---|---|
-| ![Nebula wave pattern](./Screenshots/Nebula%20wave%20pattern.png) | ![Fiber Optic wave pattern](./Screenshots/Fiber%20Optic%20wave%20pattern.png) |
+| ![Nebula wave pattern](./Screenshots/nebula-wave-pattern.png) | ![Fiber Optic wave pattern](./Screenshots/fiber-optic-wave-pattern.png) |
 
 ### Customization UI
-![Customization UI](./Screenshots/Menu.png)
+![Customization UI](./Screenshots/menu.png)
 
 ## Features
 
