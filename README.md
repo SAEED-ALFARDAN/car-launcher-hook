@@ -15,12 +15,13 @@ The Goal: Replace the stock 2D road animation and music widget with a high-perfo
 
 
 ## Screenshots
+
 | Nebula wave pattern | Fiber Optic wave pattern |
 |---|---|
-| ![](./Screenshots/nebula-wave-pattern.png) | ![](./Screenshots/fiber-optic-wave-pattern.png) |
+| ![Nebula wave pattern](./Screenshots/Nebula%20wave%20pattern.png) | ![Fiber Optic wave pattern](./Screenshots/Fiber%20Optic%20wave%20pattern.png) |
 
 ### Customization UI
-![](./Screenshots/menu.png)
+![Customization UI](./Screenshots/Menu.png)
 
 ## What This Project Does
 
