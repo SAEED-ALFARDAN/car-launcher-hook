@@ -1,5 +1,5 @@
 # HeadUnit Hook
-### A Deep-Dive into Android Reverse Engineering & OpenGL ES
+### An LSPosed module for Android car head units that replaces the stock road animation with a custom OpenGL ES 2.0 renderer and upgrades the music widget with live album art and animated visual effects.
 
 [![Platform](https://img.shields.io/badge/Platform-Android%209-brightgreen?style=flat-square)](https://android.com)
 [![Framework](https://img.shields.io/badge/Framework-LSPosed%2FXposed-orange?style=flat-square)](https://github.com/LSPosed/LSPosed)
@@ -8,10 +8,11 @@
 [![Target](https://img.shields.io/badge/Target-com.spd.home-red?style=flat-square)](https://android.com)
 
 
-## The Project Story
-I bought a budget Android head unit for my car, but the stock interface was locked-down, laggy, and visually dated. As a student interested in how systems work under the hood, I decided to treat the head unit as a "black box" and see if I could inject my own code into the system launcher to modernize it.
+## Overview
+I bought a budget Android head unit for my car and found the stock launcher locked down, laggy, and visually dated. As a reverse-engineering and Android internals project, I treated the launcher as a black box and injected my own code at runtime to modernize the interface.
 
-The Goal: Replace the stock 2D road animation and music widget with a high-performance 3D engine and dynamic internet-sourced album art—all without having access to the original source code.
+
+This LSPosed module hooks into a closed-source Android car launcher (`com.spd.home`) running on an SDM450/MSM8953 head unit (1920×1200, 4GB RAM) and replaces two major UI components entirely at runtime — **without modifying the APK**.
 
 
 ## Screenshots
@@ -23,9 +24,7 @@ The Goal: Replace the stock 2D road animation and music widget with a high-perfo
 ### Customization UI
 ![Customization UI](./Screenshots/Menu.png)
 
-## What This Project Does
-
-This LSPosed module hooks into a closed-source Android car launcher (`com.spd.home`) running on an SDM450/MSM8953 head unit (1920×1200, 4GB RAM) and replaces two major UI components entirely at runtime — **without modifying the APK**.
+## Features
 
 ### 3D Road Scene
 Replaces the launcher's original Canvas-based road grid with a custom **OpenGL ES 2.0** renderer:
@@ -74,6 +73,6 @@ The launcher APK (`com.spd.home`) was decompiled using **jadx** to map field nam
 
 ## License
 
-MIT License. This project is for educational purposes only. I do not own the rights to the com.spd.home application. Use at your own risk when operating a vehicle.
+MIT License. This project is for educational purposes only. I do not own the rights to the `com.spd.home` application. Use at your own risk when operating a vehicle.
 
 ---
