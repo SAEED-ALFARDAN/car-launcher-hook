@@ -54,7 +54,6 @@ Hooks into `MusicFrameManager` and `MyID3View` to transform the music panel:
 | This module | 18 |
 
 Cut per-frame draw calls from 400 to 18 (95%) with a batched OpenGL ES 2.0 renderer that holds a stable 60 FPS on the head unit.
-n 
 ## Project Structure
 
 ```
